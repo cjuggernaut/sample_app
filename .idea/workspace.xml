@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c8c679e-8c32-4885-a053-cfd698a307e3" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/static_pages/about.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/static_pages/help.html.erb" afterPath="$PROJECT_DIR$/app/views/static_pages/help.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/static_pages/home.html.erb" afterPath="$PROJECT_DIR$/app/views/static_pages/home.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/requests/static_pages_spec.rb" afterPath="$PROJECT_DIR$/spec/requests/static_pages_spec.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sample_app.iws" />
@@ -14,9 +18,9 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/sample_app@Development__sample_app.coverage" NAME="Development: sample_app Coverage Results" MODIFIED="1392362408807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sample_app" />
+    <SUITE FILE_PATH="coverage/sample_app@Development__sample_app.coverage" NAME="Development: sample_app Coverage Results" MODIFIED="1392363479587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sample_app" />
     <SUITE FILE_PATH="coverage/sample_app@All_specs_in_spec__sample_app.coverage" NAME="All specs in spec: sample_app Coverage Results" MODIFIED="1392344114061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sample_app" />
-    <SUITE FILE_PATH="coverage/sample_app@Run_spec__static_pages_spec___sample_app.coverage" NAME="Run spec 'static_pages_spec': sample_app Coverage Results" MODIFIED="1392362353012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sample_app" />
+    <SUITE FILE_PATH="coverage/sample_app@Run_spec__static_pages_spec___sample_app.coverage" NAME="Run spec 'static_pages_spec': sample_app Coverage Results" MODIFIED="1392364293334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sample_app" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -51,10 +55,8 @@
       <file leaf-file-name="home.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/static_pages/home.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="4" selection-start="147" selection-end="147" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="187">
-              <folding>
-                <marker date="1392344108050" expanded="true" signature="22:146" placeholder="..." />
-              </folding>
+            <state line="14" column="7" selection-start="312" selection-end="312" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="340">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -62,7 +64,7 @@
       <file leaf-file-name="about.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/static_pages/about.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="45" selection-start="272" selection-end="272" vertical-scroll-proportion="0.12996942" vertical-offset="0" max-vertical-offset="654">
+            <state line="15" column="7" selection-start="446" selection-end="446" vertical-scroll-proportion="0.38990825" vertical-offset="0" max-vertical-offset="654">
               <folding />
             </state>
           </provider>
@@ -71,7 +73,7 @@
       <file leaf-file-name="static_pages_spec.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/requests/static_pages_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="5" selection-start="554" selection-end="554" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+            <state line="41" column="80" selection-start="1023" selection-end="1023" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901">
               <folding />
             </state>
           </provider>
@@ -80,10 +82,8 @@
       <file leaf-file-name="help.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/static_pages/help.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="4" selection-start="251" selection-end="251" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="204">
-              <folding>
-                <marker date="1392358901025" expanded="true" signature="16:250" placeholder="..." />
-              </folding>
+            <state line="8" column="3" selection-start="166" selection-end="166" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="357">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -105,11 +105,11 @@
         <option value="$PROJECT_DIR$/config/initializers/secret_token.rb" />
         <option value="$PROJECT_DIR$/README.rdoc" />
         <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
-        <option value="$PROJECT_DIR$/app/views/static_pages/home.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/static_pages/help.html.erb" />
-        <option value="$PROJECT_DIR$/spec/requests/static_pages_spec.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/static_pages_controller.rb" />
+        <option value="$PROJECT_DIR$/spec/requests/static_pages_spec.rb" />
+        <option value="$PROJECT_DIR$/app/views/static_pages/home.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/static_pages/help.html.erb" />
         <option value="$PROJECT_DIR$/app/views/static_pages/about.html.erb" />
       </list>
     </option>
@@ -330,7 +330,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
   </component>
-  <component name="RunManager" selected="Rails.Development: sample_app">
+  <component name="RunManager" selected="RSpec.Run spec 'static_pages_spec': sample_app">
     <configuration default="false" name="All specs in spec: sample_app" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="sample_app" />
@@ -533,7 +533,11 @@
       <created>1392362929636</created>
       <updated>1392362929636</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="na&#10;">
+      <created>1392363153304</created>
+      <updated>1392363153304</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -560,20 +564,20 @@
     <frame x="1362" y="-4" width="1688" height="1058" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32822758" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932165" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.0" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932165" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34177214" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32822758" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2020757" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22757111" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22757111" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -629,22 +633,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/static_pages/help.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="4" selection-start="251" selection-end="251" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="204">
-          <folding>
-            <marker date="1392358901025" expanded="true" signature="16:250" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/requests/static_pages_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="5" selection-start="554" selection-end="554" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="26" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1105">
@@ -666,15 +654,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/static_pages/home.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="4" selection-start="147" selection-end="147" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="187">
-          <folding>
-            <marker date="1392344108050" expanded="true" signature="22:146" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.old.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="0" selection-start="299" selection-end="299" vertical-scroll-proportion="0.36391437" vertical-offset="0" max-vertical-offset="654">
@@ -682,9 +661,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/spec/requests/static_pages_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="80" selection-start="1023" selection-end="1023" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/static_pages/help.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="3" selection-start="166" selection-end="166" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="357">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/static_pages/home.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="7" selection-start="312" selection-end="312" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/static_pages/about.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="45" selection-start="272" selection-end="272" vertical-scroll-proportion="0.12996942" vertical-offset="0" max-vertical-offset="654">
+        <state line="15" column="7" selection-start="446" selection-end="446" vertical-scroll-proportion="0.38990825" vertical-offset="0" max-vertical-offset="654">
           <folding />
         </state>
       </provider>
